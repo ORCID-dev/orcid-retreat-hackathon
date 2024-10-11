@@ -7,7 +7,7 @@ import { ImageService } from '../image.service';
   styleUrls: ['./image-gallery.component.css']
 })
 export class ImageGalleryComponent implements OnInit {
-  imageUrls: string[] = [];
+  imageUrls: any[] = [];
 
   constructor(private imageService: ImageService) {}
 

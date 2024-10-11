@@ -10,7 +10,7 @@ export class ImageService {
 
   constructor(private http: HttpClient) {}
 
-  getImageUrls(): Observable<string[]> {
-    return this.http.get<string[]>(this.imageUrl);
+  getImageUrls(): Observable<any[]> {
+    return this.http.get<any[]>(this.imageUrl);
   }
 }

@@ -1,5 +1,7 @@
 <div class="image-gallery">
-  <div *ngFor="let url of imageUrls" class="image-item">
-    <img [src]="url" alt="Image" />
+  <div *ngFor="let u of imageUrls" class="image-item">
+    <img [src]="u.url" alt="Image" />
+    <div>
+      <p>{{ u.text }}</p>
   </div>
 </div>

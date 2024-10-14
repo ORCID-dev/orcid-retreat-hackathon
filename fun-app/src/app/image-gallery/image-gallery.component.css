@@ -10,3 +10,11 @@
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+.horizontal-divider {
+  height: 2px;
+  width: 100%;
+  background: var(--red-to-pink-to-purple-horizontal-gradient);
+  margin-block: 1rem;
+  border: none;
+}
